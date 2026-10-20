@@ -1,0 +1,13 @@
+Name,Number,Electrical Type,Graphic Style
+AOUT1,2,Output,Line
+AISEN,3,Passive,Line
+AOUT2,4,Output,Line
+BOUT2,5,Output,Line
+BISEN,6,Passive,Line
+BOUT1,7,Output,Line
+nFAULT,8,Open collector,Line
+VCP,11,Passive,Line
+VM,12,Power input,Line
+GND,13,Power input,Line
+VINT,14,Power output,Line
+PAD,17,Power input,Line
