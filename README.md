@@ -17,7 +17,7 @@ To learn more about Course 2 and the *KiCad Like a Pro, 5th Edition* book series
 
 | Folder | Project | Used in |
 |---|---|---|
-| [`klp5e-c2-m1-drv8833-parts/`](klp5e-c2-m1-drv8833-parts/) | The DRV8833 symbol and footprint, authored from the datasheet, with Activity A1.1 | Module 1 (Module 2 to follow) |
+| [`klp5e-c2-m1-drv8833-parts/`](klp5e-c2-m1-drv8833-parts/) | The DRV8833 symbol and footprint, authored from the datasheet, with Activities A1.1 and A2.1 | Modules 1 and 2 |
 
 More projects are added as each module is recorded. See each project's own README for what each
 stage contains.

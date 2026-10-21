@@ -1,0 +1,18 @@
+Name,Number,Electrical Type,Graphic Style
+nSLEEP,1,Input,Line
+AOUT1,2,Output,Line
+AISEN,3,Passive,Line
+AOUT2,4,Output,Line
+BOUT2,5,Output,Line
+BISEN,6,Passive,Line
+BOUT1,7,Output,Line
+nFAULT,8,Open collector,Line
+BIN1,9,Input,Line
+BIN2,10,Input,Line
+VCP,11,Passive,Line
+VM,12,Power input,Line
+GND,13,Power input,Line
+VINT,14,Power output,Line
+AIN2,15,Input,Line
+AIN1,16,Input,Line
+PAD,17,Power input,Line
