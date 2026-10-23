@@ -20,5 +20,9 @@ To learn more about Course 2 and the *KiCad Like a Pro, 5th Edition* book series
 | [`klp5e-c2-m1-drv8833-parts/`](klp5e-c2-m1-drv8833-parts/) | The DRV8833 symbol and footprint, authored from the datasheet, with Activities A1.1 and A2.1 | Modules 1 and 2 |
 | [`klp5e-c2-m3-standin-board/`](klp5e-c2-m3-standin-board/) | The DRV8833 stand-in board, set up with net classes, sizes, custom rules and severities, with Activity A3.1 | Module 3 |
 
+Each activity folder also holds the activity's slide deck, `slides.html`. Download it and open it in
+a browser (press `F` for fullscreen, arrow keys to move), so you can keep the task on screen
+instead of pausing the video.
+
 More projects are added as each module is recorded. See each project's own README for what each
 stage contains.
