@@ -5,6 +5,7 @@ it again, in your own footprint library, and links it to the symbol you made in 
 numbers sheet below does the decoding for you; building the footprint and checking it are yours.
 
 Allow 60 to 90 minutes. Fill in `record-sheet.md` as you go.
+This folder also holds `slides.html`, the lecture's slide deck, to open in a browser, and `HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm.step`, the 3D model.
 
 ## What you start from
 

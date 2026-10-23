@@ -25,9 +25,10 @@ silkscreen at the board edge. Rule 3 in `06-severity` removes them.
 
 ## Activity A3.1
 
-[`A3.1-activity/`](A3.1-activity/) holds the activity's task (`TASK.md`) the record sheet
-(`record-sheet.md`) and the lecture's slide deck (`slides.html`). Start from `00-start`, and compare your result with `06-severity` only after
-you have checked every line of the acceptance list.
+[`A3.1-activity/`](A3.1-activity/) has everything for the activity in its own README: the
+instructions, every value to enter and the acceptance list. The folder also holds a record sheet
+(`record-sheet.md`) and the lecture's slide deck (`slides.html`). Start from `00-start`, and compare
+your result with `06-severity` only after you have checked every line of the acceptance list.
 
 ## Lecture 4.5
 

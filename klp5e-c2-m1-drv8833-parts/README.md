@@ -33,18 +33,20 @@ under a nickname that cannot clash with your own (for example `stage-08`).
 
 ## Activity A1.1
 
-[`A1.1-activity/`](A1.1-activity/) holds the activity's task (`TASK.md`), the record sheet you
-fill in as you go (`record-sheet.md`) and the lecture's slide deck (`slides.html`). Start from `00-start`, and compare your result with
-`04-fields` only after you have checked every line of the acceptance list.
+[`A1.1-activity/`](A1.1-activity/) has everything for the activity in its own README: the
+instructions, every value to enter and the acceptance list. The folder also holds a record sheet
+(`record-sheet.md`) and the lecture's slide deck (`slides.html`). Start from `00-start`, and compare
+your result with `04-fields` only after you have checked every line of the acceptance list.
 
 Your pin positions can differ from the solution's. Your pin numbers and types cannot.
 
 ## Activity A2.1
 
-[`A2.1-activity/`](A2.1-activity/) holds the activity's task (`TASK.md`), the record sheet
-(`record-sheet.md`), the lecture's slide deck (`slides.html`) and a copy of the 3D model, `HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm.step`,
-for anyone without KiCad's 3D library. Start from your own library from A1.1, or from
-`04-fields`, and compare your result with `13-linked` only after you have checked every line of
-the acceptance list.
+[`A2.1-activity/`](A2.1-activity/) has everything for the activity in its own README: the
+instructions, every number to enter and the acceptance list. The folder also holds a record sheet
+(`record-sheet.md`), the lecture's slide deck (`slides.html`) and a copy of the 3D model,
+`HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm.step`, for anyone without KiCad's 3D library. Start from
+your own library from A1.1, or from `04-fields`, and compare your result with `13-linked` only
+after you have checked every line of the acceptance list.
 
 Your silkscreen can differ from the solution's. Your numbers, sizes and layers cannot.

@@ -6,6 +6,7 @@ The values sheet does the remembering for you; putting each value in the right p
 checking it, is yours.
 
 Allow 45 to 60 minutes. Fill in `record-sheet.md` as you go.
+This folder also holds `slides.html`, the lecture's slide deck, to open in a browser.
 
 ## What you start from
 

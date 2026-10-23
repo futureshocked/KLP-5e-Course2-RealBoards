@@ -5,6 +5,7 @@ again, in your own library, under your own name. The pin file does part of the w
 datasheet, placing the pins and checking the result are yours.
 
 Allow 45 to 60 minutes. Fill in `record-sheet.md` as you go.
+This folder also holds `slides.html`, the lecture's slide deck, to open in a browser.
 
 ## What you start from
 
