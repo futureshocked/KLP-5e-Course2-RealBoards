@@ -1,0 +1,15 @@
+(version 1)
+(rule "Power minimum width"
+	(constraint track_width (min 0.8mm) (opt 1.0mm) (max 2.0mm))
+	(condition "A.hasNetclass('POWER')")
+)
+
+(rule "VBUS minimum width (J1 pad-pitch relief)"
+	(constraint track_width (min 0.7mm) (opt 1.0mm) (max 2.0mm))
+	(condition "A.NetName == 'VBUS'")
+)
+
+(rule "J1 internal pad clearance (USB-C pad pitch)"
+	(constraint clearance (min 0.2mm))
+	(condition "A.memberOfFootprint('J1') && B.memberOfFootprint('J1')")
+)
