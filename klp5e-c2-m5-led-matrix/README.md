@@ -1,5 +1,7 @@
 # klp5e-c2-m5-led-matrix stages
 
+![The finished Module 5 board, its four matrices showing 1234](images/m5-board.png)
+
 One folder per step of Module 5's warm-up board: four MAX7219 cells, each driving an 8 × 8 LED
 matrix, on a 100 × 50 mm board, fed by an Arduino Nano. The module builds one cell, stamps it four
 times in the schematic, and routes it once on the board before copying it to the other three. Each
