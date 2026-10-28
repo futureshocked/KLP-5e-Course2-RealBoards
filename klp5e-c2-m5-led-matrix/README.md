@@ -26,9 +26,14 @@ the repository before you work in it, and do not open two stages at once.
 | `09-repeated` | Groups renamed `DS1` to `DS4`, each with a placement rule area; cells 2 to 4 placed and routed from cell 1 by Repeat Layout | lecture 5.8 |
 | `10-shared-wiring` | The wiring the cells share (power, clock, load and the cascade) drawn into and out of cells 1 and 2. The start of A5.1 | bonus B5.5 |
 | `11-copied` | Cells 3 and 4 given their shared wiring by one Repeat Layout from cell 2, unrepaired. A5.1's worked solution | bonus B5.6 |
+| `12-repaired` | The two stacked vias the copy left at the cell 3 and cell 4 seams removed; no DRC warnings, only `GND` unconnected | lecture 5.9 |
+| `13-first-pour` | One `GND` zone on both layers, filled: much of the back's copper is cut away between the cells' tracks | lecture 5.10 |
+| `14-stitched` | `DIN1` and the cascade links re-routed; `GND` vias stitched through the pour until every filled piece reaches one; nothing unconnected | bonus B5.7 |
+| `15-finished` | Reference designators resized, the silkscreen labels and the board's name and version added, the Nano's 3D model placed: the finished board | bonus B5.8 |
 
-Every stage leaves `GND` unconnected: the copper pour joins it later in the module. Stages from
-`12` on are added as the rest of Module 5 is recorded.
+Up to `12-repaired`, every stage leaves `GND` unconnected: the copper pour joins it in lecture
+5.10, and the stitching vias in `14-stitched` finish the job. When you open `13-first-pour` or a
+later stage, press B to refill the pour before you read it or run the DRC.
 
 ## Checking the netlist (lecture 5.5)
 
