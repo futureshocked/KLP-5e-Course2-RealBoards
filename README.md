@@ -20,6 +20,7 @@ To learn more about Course 2 and the *KiCad Like a Pro, 5th Edition* book series
 | [`klp5e-c2-m1-drv8833-parts/`](klp5e-c2-m1-drv8833-parts/) | The DRV8833 symbol and footprint, authored from the datasheet, with Activities A1.1 and A2.1 | Modules 1 and 2 |
 | [`klp5e-c2-m3-standin-board/`](klp5e-c2-m3-standin-board/) | The DRV8833 stand-in board, set up with net classes, sizes, custom rules and severities, with Activity A3.1 | Module 3 |
 | [`klp5e-c2-m5-led-matrix/`](klp5e-c2-m5-led-matrix/) | The four-cell MAX7219 LED matrix: one cell built, stamped four times and copied with Repeat Layout, with Activity A5.1 | Module 5 |
+| [`klp5e-c2-m6-drv8833/`](klp5e-c2-m6-drv8833/) | The DRV8833 two-motor driver board, the capstone: sheet, board setup, driver stage placed first and bridges routed at full width, with Activity A6.1 | Module 6 |
 
 Each activity folder also holds the activity's slide deck, `slides.html`. Download it and open it in
 a browser (press `F` for fullscreen, arrow keys to move), so you can keep the task on screen

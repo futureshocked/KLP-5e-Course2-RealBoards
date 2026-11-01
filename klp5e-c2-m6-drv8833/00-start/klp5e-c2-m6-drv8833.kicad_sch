@@ -2,16 +2,16 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "72bc6ebf-9d0b-4064-9b1e-5c9455853006")
+	(uuid "6923e0cb-ce54-4981-95f1-deb10df1ccc8")
 	(paper "A4")
 	(title_block
 		(title "DRV8833 Dual H-Bridge Motor Driver")
+		(date "2026-10-30")
 		(rev "5e")
 		(company "Tech Explorations")
 		(comment 1 "KiCad Like a Pro 5e - Course 2, Module 6")
 	)
-	(lib_symbols
-	)
+	(lib_symbols)
 	(sheet_instances
 		(path "/"
 			(page "1")
