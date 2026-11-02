@@ -2,7 +2,8 @@
 
 One folder per step of Module 6's capstone: a two-motor driver board built round the DRV8833,
 using the symbol and footprint you authored in Modules 1 and 2. The module draws the sheet, sets
-the board up, places the driver stage first and routes the motor bridges at full width. Each stage
+the board up, places the driver stage first, routes the board and writes the rule that covers the chip's breakout,
+pours the ground, labels the silkscreen and finishes it with the title block and logos. Each stage
 is the project as it stood at the end of a lecture or bonus video and the start of the next one.
 
 **Every stage is a complete KiCad project.** Open the `.kicad_pro` in a stage folder and it loads
@@ -24,8 +25,16 @@ the repository before you work in it, and do not open two stages at once.
 | `07-stage-placed` | The eight driver-stage parts placed; the other twelve still off the board | lecture 6.8 |
 | `08-all-placed` | Every part at its table position, the driver stage locked; the board agrees with the sheet | bonus B6.4 |
 | `09-bridge-a` | `VM_IN`, `VM`, `AOUT1`, `AOUT2` and `AISEN` routed on `F.Cu`. The start of A6.1 | lecture 6.9 |
+| `10-bridge-b` | `J3` re-pinned and bridge B routed: `BOUT1`, `BOUT2` and `BISEN`. The worked solution to A6.1 | bonus B6.5 |
+| `11-logic-routed` | The logic nets routed; only `GND` is left unconnected | bonus B6.6 |
+| `12-breakout-area` | The rule area `U1_breakout` drawn round the chip, with a deliberate what-if: two narrow pieces on `AOUT1` and `BOUT1` that the DRC flags while the rule still follows the courtyard | lecture 6.10 |
+| `13-rule-on-area` | The breakout rule aimed at the rule area; the DRC is clear | lecture 6.11 |
+| `14-ground-poured` | The `GND` pour on both layers, with ties to the back for the ground pads in pockets of front copper. One tie via is still at the default size | lecture 6.12 |
+| `15-labelled` | The designators and the connector legends on the silkscreen | lecture 6.13 |
+| `16-finished` | The title block and the KiCad and Tech Explorations logos; the DRC reports no violation and parity is clean. The finished board, and the start of Modules 8 and 9 | bonus B6.7 |
 
-Stages to the end of the module are added as they are recorded.
+Stage `16-finished` adds a second project library, `Logo` (`Libraries/Logo.pretty`), holding the Tech
+Explorations logo footprints. Its row is in the stage's `fp-lib-table`.
 
 ## Checking the netlist (lecture 6.6)
 
@@ -55,5 +64,4 @@ On `07-stage-placed` it fails, because twelve parts are still off the board.
 [`A6.1-activity/`](A6.1-activity/) has everything for the activity in its own README: where you
 start, the task, the settings, the acceptance list and what to do if you get stuck. The folder also
 holds a record sheet (`record-sheet.md`) and the lecture's slide deck (`slides.html`). Start from
-`09-bridge-a`. The worked solution is bonus B6.5, and its stage, `10-bridge-b`, is added here once
-it is recorded.
+`09-bridge-a`. The worked solution is bonus B6.5, and its stage is `10-bridge-b`.
