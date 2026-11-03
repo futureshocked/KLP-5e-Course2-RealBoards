@@ -20,3 +20,14 @@ of the repository before you work in it, and do not open two stages at once.
 | `01-block-circuit` | The design block `DRV8833 h-bridge motor stage` in the project's block library, holding the driver stage's circuit (`U1`, `C2`, `C3`, `C4`, `R2`, `R3`, `J2`, `J3`, their labels and grounds); the board is unchanged | lecture 7.1 |
 | `02-block-captured` | The same block updated with the stage's layout: the eight footprints, their tracks and vias, the four motor legends and the `U1_breakout` rule area | lecture 7.2 |
 | `02b-block-tidied` | The block library moved into `Libraries/` and the block renamed `DRV8833-Stage`; the sheet and board groups renamed and re-linked to it; the eight stage-one parts and the `U1_breakout` rule area locked | lecture 7.2b |
+| `03-sheet-arranged` | The parts that appear only once moved along the bottom of the sheet to make room for a second stage; no connection changed | bonus B7.2 |
+| `04-second-stage` | The block placed a second time and grouped: `DRV8833-Stage-1` and `DRV8833-Stage-2`, the copy's parts `U2` to `J6`; its labels are still stage one's, so ERC reports 5 errors | lecture 7.3 |
+| `05-labels-renamed` | Stage two's twelve labels renamed (`CIN1`, `COUT1` and so on); 32 nets; ERC leaves 8 expected items | lecture 7.4 |
+| `06-stage-on-board` | Stage two on the board beside the outline, laid out and routed by the block; its motor legends retyped; rule areas `U1_breakout` and `U2_breakout` | lecture 7.5 |
+| `07-board-grown` | The board grown to 91 × 48 mm with stage two inside it; the old runs to `J4` cut back, `J4` and `R1` moved | bonus B7.3 |
+| `08-trunk-routed` | `Power` class at 3.80 mm; the `VM` rail routed as a 3.80 mm trunk that splits above `C1` into 1.50 mm branches to the two stages | lecture 7.6 |
+| `09-rules-fixed` | The two custom rules copied from Module 6 edited to cover both stages; DRC clear of width and breakout violations. `J4` is still the eight-pin header: this is Activity A7.1's start | lecture 7.7 |
+
+## Activity A7.1
+
+[`A7.1-activity/`](A7.1-activity/) holds Activity A7.1, "Swap the header and route the control side": the task (`README.md`), the record sheet you fill in (`record-sheet.md`) and the slide deck (`slides.html`). It starts from `09-rules-fixed`.
