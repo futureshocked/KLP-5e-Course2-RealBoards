@@ -1,0 +1,12 @@
+(version 1)
+
+(rule "Power minimum width"
+	(constraint track_width (min 0.8mm) (opt 3.8mm) (max 4.5mm))
+	(condition "A.hasNetclass('Power')")
+)
+
+(rule "Driver fine-pitch breakout"
+	(constraint track_width (min 0.2mm))
+	(constraint clearance (min 0.15mm))
+	(condition "A.intersectsArea('U1_breakout') || A.intersectsArea('U2_breakout')")
+)

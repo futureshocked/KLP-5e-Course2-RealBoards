@@ -27,6 +27,9 @@ of the repository before you work in it, and do not open two stages at once.
 | `07-board-grown` | The board grown to 91 × 48 mm with stage two inside it; the old runs to `J4` cut back, `J4` and `R1` moved | bonus B7.3 |
 | `08-trunk-routed` | `Power` class at 3.80 mm; the `VM` rail routed as a 3.80 mm trunk that splits above `C1` into 1.50 mm branches to the two stages | lecture 7.6 |
 | `09-rules-fixed` | The two custom rules copied from Module 6 edited to cover both stages; DRC clear of width and breakout violations. `J4` is still the eight-pin header: this is Activity A7.1's start | lecture 7.7 |
+| `10-header-routed` | `J4` replaced by the 2 × 6 header and routed to both stages; the outline cut to 86 × 48 mm, the right-hand holes moved with it | bonus B7.4 |
+| `11-stage-classed` | Stage two's eight parts given the component class `Stage-2`, on the sheet and on the board | lecture 7.8 |
+| `12-finished` | Stage one's leftover copper group ungrouped, so each stage has one group; pours refilled; DRC clean (0 violations, 0 unconnected, 0 parity). Module 8 starts here | bonus B7.5 |
 
 ## Activity A7.1
 
