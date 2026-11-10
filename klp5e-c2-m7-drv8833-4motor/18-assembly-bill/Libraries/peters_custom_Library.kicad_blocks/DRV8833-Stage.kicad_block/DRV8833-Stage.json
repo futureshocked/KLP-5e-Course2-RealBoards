@@ -1,0 +1,5 @@
+{
+"description": "One DRV8833PWP with its VM, VINT and VCP decoupling, two 0.2 ohm sense resistors and two 2-pin screw terminals. Labels are stage A's; rename the copy after placing it.",
+"keywords": "DRV8833 h-bridge motor stage",
+"fields": {}
+}

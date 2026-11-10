@@ -32,9 +32,21 @@ the repository before you work in it, and do not open two stages at once.
 | `14-ground-poured` | The `GND` pour on both layers, with ties to the back for the ground pads in pockets of front copper. One tie via is still at the default size | lecture 6.12 |
 | `15-labelled` | The designators and the connector legends on the silkscreen | lecture 6.13 |
 | `16-finished` | The title block and the KiCad and Tech Explorations logos; the DRC reports no violation and parity is clean. The finished board, and the start of Modules 8 and 9 | bonus B6.7 |
+| `17-dfm-checked` | The same board after the DRC with the fab's numbers and the HQ DFM plugin; neither needed a fix | lecture 9.2 |
+| `18-finish-enig` | The surface finish set to ENIG in Board Setup; nothing else changed | lecture 9.3 |
+| `19-plotted` | The plot settings saved; `Gerber/` holds the nine Gerbers, the drill file and its map, the job file, the position file and `klp5e-c2-m6-drv8833-fab.zip`, the archive sent to the factory | lecture 9.4 |
+| `20-fab-checked` | The same files after the three checks on the plotted files; nothing needed a fix. This is the board that was ordered and that Module 10 assembles, and the start of Module 11 | lecture 9.5 |
+| `21-control-bus` | The four control lines drawn as the bus `CTRL{AIN1 AIN2 BIN1 BIN2}`; the board's control nets are now `/CTRL.AIN1` to `/CTRL.BIN2` | lecture 11.2 |
+| `22-logic-table` | The DRV8833's H-bridge logic table on the back silkscreen | lecture 11.3 |
+| `23-qr-code` | A QR code for `techexplorations.com/kicad`, made with the footprint wizard and saved as `te_qr_code` in `peters_custom_Library`, on the back silkscreen | lecture 11.4 |
+| `24-teardrops` | Teardrops on the board's pads and vias; pours refilled | lecture 11.5 |
 
 Stage `16-finished` adds a second project library, `Logo` (`Libraries/Logo.pretty`), holding the Tech
 Explorations logo footprints. Its row is in the stage's `fp-lib-table`.
+
+Stages `17` to `20` are the board as it was checked and ordered in Module 9. Stages `21` to `24`
+are the recipes of Module 11: touches for the board's next revision, so they hold no plotted files
+and nothing in them was ordered.
 
 ## Checking the netlist (lecture 6.6)
 

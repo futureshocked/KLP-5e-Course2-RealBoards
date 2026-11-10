@@ -2,7 +2,7 @@
 
 One folder per step of Module 7: the four-motor extension of the Module 6 capstone. The module
 captures Module 6's driver stage as a design block, places it a second time on the sheet and on the
-board, and grows the board to carry both stages. Each stage is the project as it stood at the end of
+board, and grows the board to carry both stages. Module 8 adds the sourcing fields, the build variants and the bills, and bonus B9.2 plots the board for the factory. Each stage is the project as it stood at the end of
 a lecture or bonus video and the start of the next one.
 
 **Every stage is a complete KiCad project.** Open the `.kicad_pro` in a stage folder and it loads
@@ -30,7 +30,27 @@ of the repository before you work in it, and do not open two stages at once.
 | `10-header-routed` | `J4` replaced by the 2 × 6 header and routed to both stages; the outline cut to 86 × 48 mm, the right-hand holes moved with it | bonus B7.4 |
 | `11-stage-classed` | Stage two's eight parts given the component class `Stage-2`, on the sheet and on the board | lecture 7.8 |
 | `12-finished` | Stage one's leftover copper group ungrouped, so each stage has one group; pours refilled; DRC clean (0 violations, 0 unconnected, 0 parity). Module 8 starts here | bonus B7.5 |
+| `13-fields-added` | Four project field templates added; the sourcing fields filled on the first parts | lecture 8.2 |
+| `14-fields-filled` | `MPN`, `Manufacturer` and `Supplier` on every line of the bill, `J4` included | bonus B8.1 |
+| `15-without-sense` | The variant `without-sense`, which changes `R2`, `R3`, `R6` and `R7` from `0R2` to `0R` | lecture 8.3 |
+| `16-two-motor` | The variant `two-motor`, with stage two's eight parts marked do-not-populate | lecture 8.4 |
+| `17-bills-exported` | One bill per build in `BOM/` | lecture 8.5 |
+| `18-assembly-bill` | The bill shaped to the assembler's template, in `BOM/`. Activity A9.1 starts here | lecture 8.6 |
+| `19-plotted` | ENIG set and the board plotted: `Gerbers/` holds the Gerbers, the drill file and its map, the job file, a PDF of each layer, the position file and the zip; `BOM/` holds the bills and the F.Fab and Edge.Cuts PDFs. A9.1's worked solution | bonus B9.2 |
 
 ## Activity A7.1
 
 [`A7.1-activity/`](A7.1-activity/) holds Activity A7.1, "Swap the header and route the control side": the task (`README.md`), the record sheet you fill in (`record-sheet.md`) and the slide deck (`slides.html`). It starts from `09-rules-fixed`.
+
+## Why a build without sense resistors
+
+[`WHY_WITHOUT_SENSE.md`](WHY_WITHOUT_SENSE.md) explains the `without-sense` variant that lecture 8.3
+makes: what the four sense resistors do, and when a build leaves them out.
+
+## Activity A9.1
+
+[`A9.1-activity/`](A9.1-activity/) holds Activity A9.1, "Run the ladder on your four-motor board": the
+task (`README.md`), the record sheet you fill in (`record-sheet.md`) and the slide deck
+(`slides.html`). It starts from `18-assembly-bill`. The worked solution is bonus B9.2, and its stage
+is `19-plotted`. The video plots into `Gerbers/` and writes one position file there, so the worked
+solution is laid out differently from the per-build folders the task suggests.

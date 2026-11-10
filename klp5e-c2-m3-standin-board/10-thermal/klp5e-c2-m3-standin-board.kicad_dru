@@ -1,0 +1,15 @@
+(version 1)
+(rule "Power minimum width"
+	(constraint track_width (min 0.8mm) (opt 1.5mm) (max 2.2mm))
+	(condition "A.hasNetclass('Power')")
+)
+(rule "U1 fine-pitch breakout width"
+	(constraint track_width (min 0.2mm))
+	(condition "A.NetName == '/AOUT*' || A.NetName == '/BOUT*' || A.NetName == '/VM'")
+)
+
+(rule "Allow connector silk to intersect board edge"
+	(constraint silk_clearance)
+	(severity ignore)
+	(condition "A.memberOfFootprint('J*') && B.Layer=='Edge.Cuts'")
+)
